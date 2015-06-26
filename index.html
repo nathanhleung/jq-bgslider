@@ -11,6 +11,21 @@
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    <style>
+      body {
+    position: relative;
+    overflow-x: hidden;
+}
+.bg-slider-img {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+    </style>
   </head>
   <body>
     <div class="wrapper">
@@ -29,7 +44,6 @@
       </header>
       <section>
         <p>Code:
-<a href="https://rawgit.com/LeungEnterprises/mini-jquery-bgswitcher/master/mini-jquery-bgswitcher.min.js">https://rawgit.com/LeungEnterprises/mini-jquery-bgswitcher/master/mini-jquery-bgswitcher.min.js</a></p>
 
 <pre><code>&lt;script src='./mini-jquery-bgswitcher.min.js'&gt;&lt;/script&gt;
 &lt;script&gt;
@@ -78,6 +92,9 @@
       </footer>
     </div>
     <script src="javascripts/scale.fix.js"></script>
-    
+    <script src="https://rawgit.com/LeungEnterprises/mini-jquery-bgswitcher/master/mini-jquery-bgswitcher.min.js"></script>
+    <script>
+      bgSlider();
+    </script>
   </body>
 </html>
