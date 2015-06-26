@@ -47,5 +47,5 @@ Example:
 <script>
   var images = ['http://i.imgur.com/gz0Yq3E.jpg', 'http://i.imgur.com/e3Fjb93.jpg'],
   bgSlider(images:images, animDuration: 500, slideDuration: 1000);
-</scipt>
+</script>
 ```
