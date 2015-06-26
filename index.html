@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Minimalist jQuery Background Switcher by LeungEnterprises</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Minimalist jQuery Background Switcher</h1>
+        <p>A lightweight and minimal background image slider written in jQuery.</p>
+
+        <p class="view"><a href="https://github.com/LeungEnterprises/mini-jquery-bgswitcher">View the Project on GitHub <small>LeungEnterprises/mini-jquery-bgswitcher</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/LeungEnterprises/mini-jquery-bgswitcher/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/LeungEnterprises/mini-jquery-bgswitcher/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/LeungEnterprises/mini-jquery-bgswitcher">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <p>Code:
+<a href="https://rawgit.com/LeungEnterprises/mini-jquery-bgswitcher/master/mini-jquery-bgswitcher.min.js">https://rawgit.com/LeungEnterprises/mini-jquery-bgswitcher/master/mini-jquery-bgswitcher.min.js</a></p>
+
+<pre><code>&lt;script src='./mini-jquery-bgswitcher.min.js'&gt;&lt;/script&gt;
+&lt;script&gt;
+  var images = ['http://i.imgur.com/gz0Yq3E.jpg', 'http://i.imgur.com/e3Fjb93.jpg'];
+  bgSlider({images:images, animDuration: 500, slideDuration: 1000});
+&lt;/script&gt;
+</code></pre>
+
+<h2>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h2>
+
+<p>This will create a full-page background.</p>
+
+<p>Your <em>must</em> have the following in your CSS:</p>
+
+<pre><code>body {
+    position: relative;
+    overflow-x: hidden;
+}
+.bg-slider-img {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+</code></pre>
+
+<p>Parameters:</p>
+
+<pre><code>  var params = {
+      images: ['http://i.imgur.com/gz0Yq3E.jpg', 'http://i.imgur.com/e3Fjb93.jpg'],
+      el: 'body',
+      animDuration: 500,
+      slideDuration: 1000
+  };
+
+  bgSlider(params);
+</code></pre>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/LeungEnterprises">LeungEnterprises</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
