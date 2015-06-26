@@ -9,6 +9,9 @@ This will create a full-page background.
 
 Your *must* have the following in your CSS:
 ```
+html {
+    overflow-x: hidden;
+}
 body {
     position: relative;
     overflow-x: hidden;
