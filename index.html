@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>Minimalist jQuery Background Switcher by LeungEnterprises</title>
 
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css'>
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/github-light.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
@@ -15,6 +16,7 @@
       body {
     position: relative;
     overflow-x: hidden;
+    background: rgba(0,0,0,0.5);
 }
 .bg-slider-img {
     position: absolute;
@@ -43,15 +45,6 @@
         </ul>
       </header>
       <section>
-        <p>Code:
-
-<pre><code>&lt;script src='./mini-jquery-bgswitcher.min.js'&gt;&lt;/script&gt;
-&lt;script&gt;
-  var images = ['http://i.imgur.com/gz0Yq3E.jpg', 'http://i.imgur.com/e3Fjb93.jpg'];
-  bgSlider({images:images, animDuration: 500, slideDuration: 1000});
-&lt;/script&gt;
-</code></pre>
-
 <h2>
 <a id="usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h2>
 
@@ -76,14 +69,9 @@
 
 <p>Parameters:</p>
 
-<pre><code>  var params = {
-      images: ['http://i.imgur.com/gz0Yq3E.jpg', 'http://i.imgur.com/e3Fjb93.jpg'],
-      el: 'body',
-      animDuration: 500,
-      slideDuration: 1000
-  };
-
-  bgSlider(params);
+<pre><code>
+var images = ['http://i.imgur.com/gz0Yq3E.jpg', 'http://i.imgur.com/e3Fjb93.jpg'];
+  bgSlider({images:images, animDuration: 500, slideDuration: 1000});
 </code></pre>
       </section>
       <footer>
