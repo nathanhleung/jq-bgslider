@@ -5,7 +5,9 @@ A lightweight and minimal background image switcher/slider written in jQuery.
 [http://leungenterprises.github.io/mini-jquery-bgswitcher/](http://leungenterprises.github.io/mini-jquery-bgswitcher/)
 
 ## Usage
-This will create a full-page background.  Make sure you have the following in your CSS:
+This will create a full-page background.
+
+Your *must* have the following in your CSS:
 ```
 body {
     position: relative;
@@ -35,5 +37,15 @@ Parameters:
   };
   
   bgSlider(params);
+</scipt>
+```
+
+Example:
+
+```
+<script src='./mini-jquery-bgswitcher.min.js'></script>
+<script>
+  var images = ['http://i.imgur.com/gz0Yq3E.jpg', 'http://i.imgur.com/e3Fjb93.jpg'],
+  bgSlider(images:images, animDuration: 500, slideDuration: 1000);
 </scipt>
 ```
