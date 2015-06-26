@@ -22,10 +22,13 @@
     h1, h2, h3, h4, p {
       color: #eee;
     }
-    <!-- for bg-slider -->
-      body {
+    // for bg-slider
+    html {
+      overflow-x: hidden;
+    }
+ body {
     position: relative;
-    overflow-x: hidden !important;
+    overflow-x: hidden;
 }
 .bg-slider-img {
     position: absolute;
@@ -61,7 +64,11 @@
 
 <p>Your <em>must</em> have the following in your CSS:</p>
 
-<pre><code>body {
+<pre><code>
+  html {
+    overflow-x: hidden;
+  }
+  body {
     position: relative;
     overflow-x: hidden;
 }
