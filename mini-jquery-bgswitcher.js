@@ -24,10 +24,8 @@ var bgSlider = function(params) {
         $('.bg').animate({
             left: '+=100%'
         }, params.animDuration, function() {
-            console.log(counter);
             if ((counter - (images.length - 1)) % (images.length) === 0) {
                 var slidedImg = ((counter - (images.length - 1)) / (images.length)) % images.length;
-                console.log('#img' + slidedImg);
                 $('#img' + slidedImg).css('left', String(-100 * (images.length - 1)) + '%');
             }
             counter = (counter + 1) % (images.length * images.length);
