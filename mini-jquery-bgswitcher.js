@@ -24,7 +24,7 @@ var bgSlider = function(params) {
     for (var image in images) {
        $(params.el).append('<div class="bg-slider-img", id="img' + image + '"></div>');
        $('#img' + image).css('background-image', 'url("' + images[image] + '")');
-       $('#img' + image).css('left',  String(-100 * image) + '%');
+       $('#img' + image).css('left',  String(100 * image) + '%');
     }
     var counter = 0;
     var changePic = function() {
