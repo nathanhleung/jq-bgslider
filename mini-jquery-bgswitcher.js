@@ -29,11 +29,11 @@ var bgSlider = function(params) {
     var counter = 0;
     var changePic = function() {
         $('.bg-slider-img').animate({
-            left: '+=100%'
+            left: '-=100%'
         }, params.animDuration, function() {
             if ((counter - (images.length - 1)) % (images.length) === 0) {
                 var slidedImg = ((counter - (images.length - 1)) / (images.length)) % images.length;
-                $('#img' + slidedImg).css('left', String(-100 * (images.length - 1)) + '%');
+                $('#img' + slidedImg).css('left', String(100 * (images.length - 1)) + '%');
             }
             counter = (counter + 1) % (images.length * images.length);
         });
