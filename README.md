@@ -2,7 +2,7 @@
 A lightweight and minimal background image switcher/slider written in jQuery.
 
 ## Demo
-[http://leungenterprises.github.io/mini-jquery-bgswitcher/](http://leungenterprises.github.io/mini-jquery-bgswitcher/)
+[http://18nleung.github.io/mini-jquery-bgswitcher/](http://18nleung.github.io/mini-jquery-bgswitcher/)
 
 ## Usage
 This will create a full-page background.
