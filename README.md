@@ -17,7 +17,7 @@ body {
     overflow-x: hidden;
 }
 .bg-slider-img {
-    position: absolute;
+    position: fixed;
     z-index: -1;
     top: 0;
     left: 0;
