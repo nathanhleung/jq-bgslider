@@ -1,0 +1,28 @@
+{
+  "name": "jq-bgslider",
+  "version": "1.0.0",
+  "main": "build/jq-bgslider.js",
+  "repository": {
+    "url": "https://github.com/nathanhleung/jquery-bgswitcher",
+    "type": "git"
+  },
+  "scripts": {
+    "webpack": "webpack"
+  },
+  "dependencies": {
+    "babel-core": "^6.0.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "raw-loader": "^0.5.1",
+    "webpack": "^1.14.0"
+  },
+  "devDependencies": {
+    "eslint": "3.9.1",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-import": "2.1.0",
+    "eslint-plugin-jsx-a11y": "2.2.3",
+    "eslint-plugin-react": "6.6.0"
+  },
+  "author": "nathanhleung <nathanhleung@users.noreply.github.com>",
+  "license": "MIT"
+}

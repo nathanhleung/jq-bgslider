@@ -1,0 +1,46 @@
+html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Source Sans Pro';
+  padding: 100px;
+  height: calc(100% - 200px);
+}
+
+body::before {
+  display: block;
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(255,255,255,0.7);
+}
+
+#content {
+  position: relative;
+}
+
+.highlight {
+  background: yellow;
+  padding: 10px;
+}
+
+pre {
+  display: inline-block;
+  margin: 0;
+  background: yellow;
+  color: #333;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.button {
+  text-decoration: none;
+  padding: 10px;
+  background: yellow;
+  border: 2px solid black;
+  color: #111;
+}
