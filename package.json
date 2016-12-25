@@ -3,7 +3,7 @@
   "version": "2.0.0",
   "main": "build/jq-bgslider.min.js",
   "repository": {
-    "url": "https://github.com/nathanhleung/jquery-bgswitcher",
+    "url": "https://github.com/nathanhleung/jq-bgslider",
     "type": "git"
   },
   "scripts": {
@@ -24,6 +24,6 @@
     "eslint-plugin-jsx-a11y": "2.2.3",
     "eslint-plugin-react": "6.6.0"
   },
-  "author": "nathanhleung <nathanhleung@users.noreply.github.com>",
+  "author": "nathanhleung <me@nathanhleung.com>",
   "license": "MIT"
 }
