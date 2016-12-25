@@ -1,16 +1,15 @@
 # jq-bgslider [![npm version](https://badge.fury.io/js/jq-bgslider.svg)](https://www.npmjs.com/package/jq-bgslider) [![Dependency Status](https://david-dm.org/nathanhleung/jq-bgslider.svg)](https://david-dm.org/nathanhleung/jq-bgslider)
 A simple full-page jQuery Background slider.
 
-Creates a full-screen sliding image background on your `<body>`. Only 2.13kB minified.
+Creates a full-screen sliding image background on your `<body>`. 2.13kB minified.
 
 ## Usage
-Insert the following at the end of your body tag.
 
 ### Quick Start
 
 ```html
 <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-<script src="https://unpkg.com/jq-bgslider@2.0.1/build/jq-bgslider.min.js"></script>
+<script src="https://unpkg.com/jq-bgslider@2.0.2/build/jq-bgslider.min.js"></script>
 <script>
   // Originally in ES6, so default export is accessed via .default
   jqBgslider.default({
