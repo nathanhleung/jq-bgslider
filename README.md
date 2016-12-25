@@ -57,7 +57,7 @@ Loads the background slider on the `<body>` with the provided options.
   * [`animDuration`] _(Number)_: The duration, in milliseconds, of the animation between each image/slide. Default value: `1000`.
 
 ## Examples
-[jq-bgslider Demo](https://xyz.nathanhleung.com/mini-jquery-bgswitcher/)
+[jq-bgslider Demo](https://xyz.nathanhleung.com/jq-bgslider/)
 
 In the demo site, a translucent white overlay is added with the following CSS:
 
