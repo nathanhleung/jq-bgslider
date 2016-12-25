@@ -8,7 +8,7 @@
   },
   "scripts": {
     "webpack": "webpack",
-    "prepublish": "yarn run webpack && yarn run webpack -- -p"
+    "version": "yarn run webpack && yarn run webpack -- -p"
   },
   "dependencies": {
     "babel-core": "^6.0.0",
