@@ -6,6 +6,14 @@
     "url": "https://github.com/nathanhleung/jq-bgslider",
     "type": "git"
   },
+  "keywords": [
+    "jquery-plugin",
+    "ecosystem:jquery",
+    "background",
+    "slider",
+    "full-page",
+    "full-screen"
+  ],
   "scripts": {
     "webpack": "webpack",
     "version": "yarn run webpack && yarn run webpack -- -p"
