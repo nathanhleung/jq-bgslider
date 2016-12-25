@@ -1,3 +1,7 @@
 yarn-error.log
 npm-debug.log
-/example/
+/examples/
+/src/
+.eslintrc
+.babelrc
+webpack.config.babel.js

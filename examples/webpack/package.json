@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "webpack": "webpack"
+  },
+  "dependencies": {
+    "jq-bgslider": "^2.0.1",
+    "jquery": "^3.1.1",
+    "webpack": "^1.14.0"
+  }
+}

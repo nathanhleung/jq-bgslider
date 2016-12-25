@@ -1,4 +1,6 @@
 /node_modules/
 /build/
+/examples/webpack/node_modules/
+/examples/webpack/build/
 yarn-error.log
 npm-debug.log
