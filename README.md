@@ -3,6 +3,8 @@ A simple full-page jQuery background slider.
 
 Creates a full-screen sliding image background on your `<body>`. 2.13kB minified.
 
+Check out a production demo on the website of [Saffron Indian Kitchen](http://www.saffronofphilly.com/), a fine Indian restaurant with two locations in the Greater Philadelphia Area. (Site design by [Leung Enterprises](https://www.leungenterprises.com/)).
+
 ## Usage
 
 ### Quick Start
@@ -73,5 +75,10 @@ body::before {
   background: rgba(255,255,255,0.7);
 }
 ```
+
+More examples can be found in the `examples/` directory, including a Webpack demo.
+
+This plugin is also used on http://www.saffronofphilly.com/.
+
 ## License
 [MIT](https://github.com/nathanhleung/jq-bgslider/blob/master/LICENSE)
