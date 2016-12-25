@@ -1,13 +1,14 @@
 {
   "name": "jq-bgslider",
-  "version": "1.0.0",
-  "main": "build/jq-bgslider.js",
+  "version": "2.0.0",
+  "main": "build/jq-bgslider.min.js",
   "repository": {
     "url": "https://github.com/nathanhleung/jquery-bgswitcher",
     "type": "git"
   },
   "scripts": {
-    "webpack": "webpack"
+    "webpack": "webpack",
+    "prepublish": "yarn run webpack && yarn run webpack -- -p"
   },
   "dependencies": {
     "babel-core": "^6.0.0",

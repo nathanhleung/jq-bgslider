@@ -79,7 +79,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	function jqBgslider() {
 	  var _ref = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {},
 	      _ref$images = _ref.images,
-	      images = _ref$images === undefined ? ['https://i.imgur.com/gz0Yq3E.jpg', 'https://i.imgur.com/e3Fjb93.jpg', 'https://i.imgur.com/8FoJQYg.jpg', 'https://i.imgur.com/PCmutZb.jpg'] : _ref$images,
+	      images = _ref$images === undefined ? ['https://i.imgur.com/gz0Yq3E.jpg', 'https://i.imgur.com/e3Fjb93.jpg', 'https://i.imgur.com/8FoJQYg.jpg', 'https://i.imgur.com/PCmutZb.jpg', 'https://i.imgur.com/mDxMTVJ.jpg', 'https://i.imgur.com/RW9UPlA.jpg'] : _ref$images,
 	      _ref$selector = _ref.selector,
 	      selector = _ref$selector === undefined ? 'body' : _ref$selector,
 	      _ref$animDuration = _ref.animDuration,

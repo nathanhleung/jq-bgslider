@@ -5,6 +5,7 @@
  * @param {array} options.images - The images to be used in the slider
  * @param {string} options.selector - The selector for the element to apply the background to
  * @param {number} options.slideDuration - The time each image is displayed before being slid over
+ * @param {number} options.animDuration - The duration of the slide animation
  */
 
 /* eslint-disable import/no-extraneous-dependencies */

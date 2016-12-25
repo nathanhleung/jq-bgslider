@@ -24,8 +24,9 @@ body::before {
 }
 
 .highlight {
-  background: yellow;
+  line-height: 1.8;
   padding: 10px;
+  background: yellow;
 }
 
 pre {
