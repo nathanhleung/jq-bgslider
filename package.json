@@ -1,6 +1,6 @@
 {
   "name": "jq-bgslider",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "main": "build/jq-bgslider.min.js",
   "repository": {
     "url": "https://github.com/nathanhleung/jq-bgslider",
