@@ -30,6 +30,9 @@
     "raw-loader": "^0.5.1",
     "webpack": "^1.14.0"
   },
+  "peerDependencies": {
+    "jquery": "2.x || 3.x"
+  },
   "author": "nathanhleung <me@nathanhleung.com>",
   "license": "MIT"
 }
