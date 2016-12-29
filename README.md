@@ -1,5 +1,5 @@
 # jq-bgslider [![npm version](https://badge.fury.io/js/jq-bgslider.svg)](https://www.npmjs.com/package/jq-bgslider) [![Dependency Status](https://david-dm.org/nathanhleung/jq-bgslider.svg)](https://david-dm.org/nathanhleung/jq-bgslider)
-A dependency-free full-page jQuery background slider.
+A simple full-page jQuery background slider.
 
 Creates a full-screen sliding image background on your `<body>`. 2.13kB minified.
 
